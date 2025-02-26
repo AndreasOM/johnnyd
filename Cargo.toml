@@ -13,5 +13,7 @@ description = "A tool to organize files according to the Johnny Decimal system"
 
 [workspace.dependencies]
 color-eyre = "0.6.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
