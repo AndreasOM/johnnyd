@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "johnnyd-bin",
+    "johnnyd-lib",
+]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+authors = ["Anti"]
+description = "A tool to organize files according to the Johnny Decimal system"
+
+[workspace.dependencies]
+color-eyre = "0.6.2"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }

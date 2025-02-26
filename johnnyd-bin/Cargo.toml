@@ -1,0 +1,10 @@
+[package]
+name = "johnnyd-bin"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+johnnyd-lib = { path = "../johnnyd-lib" }
+color-eyre = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
