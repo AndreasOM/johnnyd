@@ -2,7 +2,6 @@
 mod tests {
     use super::super::config::Config;
     use color_eyre::eyre::Result;
-    use std::fs;
     use std::path::PathBuf;
     use tempfile::TempDir;
 

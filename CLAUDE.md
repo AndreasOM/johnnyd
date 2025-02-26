@@ -21,3 +21,16 @@
 - **Modules**: Organize code into modules with clear responsibilities
 - **Dependencies**: Keep external dependencies minimal and well-justified
 - **Tracing**: Always fully qualify tracing macros (e.g., `tracing::info!`, not `info!`)
+
+## Commit Message Guidelines
+- Use single line messages with imperative style
+- Prefix commit messages with a single character:
+  - `+` for adding features or files
+  - `-` for removing features or files
+  - `:` for refactoring and cleanups
+  - `!` for bugfixes
+- Examples:
+  - `+ Add JohnnyD struct`
+  - `- Remove unused helper functions`
+  - `: Refactor error handling`
+  - `! Fix incorrect path handling`
