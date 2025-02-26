@@ -3,6 +3,10 @@ name = "johnnyd-bin"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "johnny-d"
+path = "src/main.rs"
+
 [dependencies]
 johnnyd-lib = { path = "../johnnyd-lib" }
 color-eyre = { workspace = true }
